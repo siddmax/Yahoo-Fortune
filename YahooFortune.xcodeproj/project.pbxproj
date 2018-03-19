@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C71BFF31DABFCC10026C486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71BFF21DABFCC10026C486 /* AppDelegate.m */; };
+		4C71BFF61DABFCC10026C486 /* YHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71BFF51DABFCC10026C486 /* YHViewController.m */; };
+		4C71BFF91DABFCC10026C486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C71BFF71DABFCC10026C486 /* Main.storyboard */; };
+		4C71BFFC1DABFCC10026C486 /* YahooFortune.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C71BFFA1DABFCC10026C486 /* YahooFortune.xcdatamodeld */; };
+		4C71BFFE1DABFCC10026C486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C71BFFD1DABFCC10026C486 /* Assets.xcassets */; };
+		4C71C0011DABFCC10026C486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C71BFFF1DABFCC10026C486 /* LaunchScreen.storyboard */; };
+		4C71C00C1DABFCC10026C486 /* YahooFortuneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C00B1DABFCC10026C486 /* YahooFortuneTests.m */; };
+		4C71C0171DABFCC10026C486 /* YahooFortuneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C0161DABFCC10026C486 /* YahooFortuneUITests.m */; };
+		4C71C0261DABFD7C0026C486 /* YHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C0251DABFD7C0026C486 /* YHDetailViewController.m */; };
+		4C71C02C1DAC00CB0026C486 /* YHDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C02B1DAC00CB0026C486 /* YHDownload.m */; };
+		4C71C02F1DAC00E30026C486 /* YHDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C02E1DAC00E30026C486 /* YHDownloadManager.m */; };
+		4C71C0501DAC0FC30026C486 /* YHCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C04F1DAC0FC30026C486 /* YHCoreDataHelper.m */; };
+		4C71C05B1DAC15790026C486 /* Entity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C0581DAC15790026C486 /* Entity+CoreDataClass.m */; };
+		4C71C05C1DAC15790026C486 /* Entity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C05A1DAC15790026C486 /* Entity+CoreDataProperties.m */; };
+		4C71C05E1DAC1EEA0026C486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71C05D1DAC1EEA0026C486 /* main.m */; };
+		4CF4C8511DAC221100DB3E6D /* YHSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4C8501DAC221100DB3E6D /* YHSettingsViewController.m */; };
+		4CF4C8541DAC24A500DB3E6D /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF4C8521DAC24A500DB3E6D /* empty.png */; };
+		4CF4C8551DAC24A500DB3E6D /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF4C8531DAC24A500DB3E6D /* favorite.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C71C0081DABFCC10026C486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C71BFE31DABFCC10026C486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C71BFEA1DABFCC10026C486;
+			remoteInfo = YahooFortune;
+		};
+		4C71C0131DABFCC10026C486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C71BFE31DABFCC10026C486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C71BFEA1DABFCC10026C486;
+			remoteInfo = YahooFortune;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C71BFEB1DABFCC10026C486 /* YahooFortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahooFortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C71BFF11DABFCC10026C486 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C71BFF21DABFCC10026C486 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C71BFF41DABFCC10026C486 /* YHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHViewController.h; sourceTree = "<group>"; };
+		4C71BFF51DABFCC10026C486 /* YHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHViewController.m; sourceTree = "<group>"; };
+		4C71BFF81DABFCC10026C486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C71BFFB1DABFCC10026C486 /* YahooFortune.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YahooFortune.xcdatamodel; sourceTree = "<group>"; };
+		4C71BFFD1DABFCC10026C486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C71C0001DABFCC10026C486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C71C0021DABFCC10026C486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C71C0071DABFCC10026C486 /* YahooFortuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooFortuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C71C00B1DABFCC10026C486 /* YahooFortuneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YahooFortuneTests.m; sourceTree = "<group>"; };
+		4C71C00D1DABFCC10026C486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C71C0121DABFCC10026C486 /* YahooFortuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooFortuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C71C0161DABFCC10026C486 /* YahooFortuneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YahooFortuneUITests.m; sourceTree = "<group>"; };
+		4C71C0181DABFCC10026C486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C71C0241DABFD7C0026C486 /* YHDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHDetailViewController.h; sourceTree = "<group>"; };
+		4C71C0251DABFD7C0026C486 /* YHDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHDetailViewController.m; sourceTree = "<group>"; };
+		4C71C02A1DAC00CB0026C486 /* YHDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHDownload.h; sourceTree = "<group>"; };
+		4C71C02B1DAC00CB0026C486 /* YHDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHDownload.m; sourceTree = "<group>"; };
+		4C71C02D1DAC00E30026C486 /* YHDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHDownloadManager.h; sourceTree = "<group>"; };
+		4C71C02E1DAC00E30026C486 /* YHDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHDownloadManager.m; sourceTree = "<group>"; };
+		4C71C04E1DAC0FC30026C486 /* YHCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCoreDataHelper.h; sourceTree = "<group>"; };
+		4C71C04F1DAC0FC30026C486 /* YHCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCoreDataHelper.m; sourceTree = "<group>"; };
+		4C71C0571DAC15790026C486 /* Entity+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Entity+CoreDataClass.h"; sourceTree = "<group>"; };
+		4C71C0581DAC15790026C486 /* Entity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Entity+CoreDataClass.m"; sourceTree = "<group>"; };
+		4C71C0591DAC15790026C486 /* Entity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Entity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4C71C05A1DAC15790026C486 /* Entity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Entity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4C71C05D1DAC1EEA0026C486 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CF4C84F1DAC221100DB3E6D /* YHSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSettingsViewController.h; sourceTree = "<group>"; };
+		4CF4C8501DAC221100DB3E6D /* YHSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSettingsViewController.m; sourceTree = "<group>"; };
+		4CF4C8521DAC24A500DB3E6D /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
+		4CF4C8531DAC24A500DB3E6D /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C71BFE81DABFCC10026C486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C71C0041DABFCC10026C486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C71C00F1DABFCC10026C486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C71BFE21DABFCC10026C486 = {
+			isa = PBXGroup;
+			children = (
+				4C71BFED1DABFCC10026C486 /* YahooFortune */,
+				4C71C00A1DABFCC10026C486 /* YahooFortuneTests */,
+				4C71C0151DABFCC10026C486 /* YahooFortuneUITests */,
+				4C71BFEC1DABFCC10026C486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C71BFEC1DABFCC10026C486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C71BFEB1DABFCC10026C486 /* YahooFortune.app */,
+				4C71C0071DABFCC10026C486 /* YahooFortuneTests.xctest */,
+				4C71C0121DABFCC10026C486 /* YahooFortuneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C71BFED1DABFCC10026C486 /* YahooFortune */ = {
+			isa = PBXGroup;
+			children = (
+				4C71BFF11DABFCC10026C486 /* AppDelegate.h */,
+				4C71BFF21DABFCC10026C486 /* AppDelegate.m */,
+				4C71BFF41DABFCC10026C486 /* YHViewController.h */,
+				4C71BFF51DABFCC10026C486 /* YHViewController.m */,
+				4C71C0241DABFD7C0026C486 /* YHDetailViewController.h */,
+				4C71C0251DABFD7C0026C486 /* YHDetailViewController.m */,
+				4CF4C84F1DAC221100DB3E6D /* YHSettingsViewController.h */,
+				4CF4C8501DAC221100DB3E6D /* YHSettingsViewController.m */,
+				4C71BFF71DABFCC10026C486 /* Main.storyboard */,
+				4C71BFFD1DABFCC10026C486 /* Assets.xcassets */,
+				4C71BFFF1DABFCC10026C486 /* LaunchScreen.storyboard */,
+				4C71C0021DABFCC10026C486 /* Info.plist */,
+				4C71BFFA1DABFCC10026C486 /* YahooFortune.xcdatamodeld */,
+				4CF4C8521DAC24A500DB3E6D /* empty.png */,
+				4CF4C8531DAC24A500DB3E6D /* favorite.png */,
+				4C71BFEE1DABFCC10026C486 /* Supporting Files */,
+				4C71C02A1DAC00CB0026C486 /* YHDownload.h */,
+				4C71C02B1DAC00CB0026C486 /* YHDownload.m */,
+				4C71C02D1DAC00E30026C486 /* YHDownloadManager.h */,
+				4C71C02E1DAC00E30026C486 /* YHDownloadManager.m */,
+			);
+			path = YahooFortune;
+			sourceTree = "<group>";
+		};
+		4C71BFEE1DABFCC10026C486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C71C05D1DAC1EEA0026C486 /* main.m */,
+				4C71C0571DAC15790026C486 /* Entity+CoreDataClass.h */,
+				4C71C0581DAC15790026C486 /* Entity+CoreDataClass.m */,
+				4C71C0591DAC15790026C486 /* Entity+CoreDataProperties.h */,
+				4C71C05A1DAC15790026C486 /* Entity+CoreDataProperties.m */,
+				4C71C04E1DAC0FC30026C486 /* YHCoreDataHelper.h */,
+				4C71C04F1DAC0FC30026C486 /* YHCoreDataHelper.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C71C00A1DABFCC10026C486 /* YahooFortuneTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C71C00B1DABFCC10026C486 /* YahooFortuneTests.m */,
+				4C71C00D1DABFCC10026C486 /* Info.plist */,
+			);
+			path = YahooFortuneTests;
+			sourceTree = "<group>";
+		};
+		4C71C0151DABFCC10026C486 /* YahooFortuneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C71C0161DABFCC10026C486 /* YahooFortuneUITests.m */,
+				4C71C0181DABFCC10026C486 /* Info.plist */,
+			);
+			path = YahooFortuneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C71BFEA1DABFCC10026C486 /* YahooFortune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C71C01B1DABFCC10026C486 /* Build configuration list for PBXNativeTarget "YahooFortune" */;
+			buildPhases = (
+				4C71BFE71DABFCC10026C486 /* Sources */,
+				4C71BFE81DABFCC10026C486 /* Frameworks */,
+				4C71BFE91DABFCC10026C486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YahooFortune;
+			productName = YahooFortune;
+			productReference = 4C71BFEB1DABFCC10026C486 /* YahooFortune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C71C0061DABFCC10026C486 /* YahooFortuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C71C01E1DABFCC10026C486 /* Build configuration list for PBXNativeTarget "YahooFortuneTests" */;
+			buildPhases = (
+				4C71C0031DABFCC10026C486 /* Sources */,
+				4C71C0041DABFCC10026C486 /* Frameworks */,
+				4C71C0051DABFCC10026C486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C71C0091DABFCC10026C486 /* PBXTargetDependency */,
+			);
+			name = YahooFortuneTests;
+			productName = YahooFortuneTests;
+			productReference = 4C71C0071DABFCC10026C486 /* YahooFortuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C71C0111DABFCC10026C486 /* YahooFortuneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C71C0211DABFCC10026C486 /* Build configuration list for PBXNativeTarget "YahooFortuneUITests" */;
+			buildPhases = (
+				4C71C00E1DABFCC10026C486 /* Sources */,
+				4C71C00F1DABFCC10026C486 /* Frameworks */,
+				4C71C0101DABFCC10026C486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C71C0141DABFCC10026C486 /* PBXTargetDependency */,
+			);
+			name = YahooFortuneUITests;
+			productName = YahooFortuneUITests;
+			productReference = 4C71C0121DABFCC10026C486 /* YahooFortuneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C71BFE31DABFCC10026C486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kevin Patel";
+				TargetAttributes = {
+					4C71BFEA1DABFCC10026C486 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					4C71C0061DABFCC10026C486 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C71BFEA1DABFCC10026C486;
+					};
+					4C71C0111DABFCC10026C486 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C71BFEA1DABFCC10026C486;
+					};
+				};
+			};
+			buildConfigurationList = 4C71BFE61DABFCC10026C486 /* Build configuration list for PBXProject "YahooFortune" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C71BFE21DABFCC10026C486;
+			productRefGroup = 4C71BFEC1DABFCC10026C486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C71BFEA1DABFCC10026C486 /* YahooFortune */,
+				4C71C0061DABFCC10026C486 /* YahooFortuneTests */,
+				4C71C0111DABFCC10026C486 /* YahooFortuneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C71BFE91DABFCC10026C486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C71C0011DABFCC10026C486 /* LaunchScreen.storyboard in Resources */,
+				4CF4C8551DAC24A500DB3E6D /* favorite.png in Resources */,
+				4C71BFFE1DABFCC10026C486 /* Assets.xcassets in Resources */,
+				4C71BFF91DABFCC10026C486 /* Main.storyboard in Resources */,
+				4CF4C8541DAC24A500DB3E6D /* empty.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C71C0051DABFCC10026C486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C71C0101DABFCC10026C486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C71BFE71DABFCC10026C486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C71C05E1DAC1EEA0026C486 /* main.m in Sources */,
+				4C71BFFC1DABFCC10026C486 /* YahooFortune.xcdatamodeld in Sources */,
+				4C71C02F1DAC00E30026C486 /* YHDownloadManager.m in Sources */,
+				4C71C05B1DAC15790026C486 /* Entity+CoreDataClass.m in Sources */,
+				4C71C02C1DAC00CB0026C486 /* YHDownload.m in Sources */,
+				4C71BFF61DABFCC10026C486 /* YHViewController.m in Sources */,
+				4C71C05C1DAC15790026C486 /* Entity+CoreDataProperties.m in Sources */,
+				4C71C0261DABFD7C0026C486 /* YHDetailViewController.m in Sources */,
+				4CF4C8511DAC221100DB3E6D /* YHSettingsViewController.m in Sources */,
+				4C71BFF31DABFCC10026C486 /* AppDelegate.m in Sources */,
+				4C71C0501DAC0FC30026C486 /* YHCoreDataHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C71C0031DABFCC10026C486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C71C00C1DABFCC10026C486 /* YahooFortuneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C71C00E1DABFCC10026C486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C71C0171DABFCC10026C486 /* YahooFortuneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C71C0091DABFCC10026C486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C71BFEA1DABFCC10026C486 /* YahooFortune */;
+			targetProxy = 4C71C0081DABFCC10026C486 /* PBXContainerItemProxy */;
+		};
+		4C71C0141DABFCC10026C486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C71BFEA1DABFCC10026C486 /* YahooFortune */;
+			targetProxy = 4C71C0131DABFCC10026C486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C71BFF71DABFCC10026C486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C71BFF81DABFCC10026C486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C71BFFF1DABFCC10026C486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C71C0001DABFCC10026C486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C71C0191DABFCC10026C486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C71C01A1DABFCC10026C486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C71C01C1DABFCC10026C486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YahooFortune/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yahoo.YahooFortune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C71C01D1DABFCC10026C486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YahooFortune/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yahoo.YahooFortune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C71C01F1DABFCC10026C486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YahooFortuneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yahoo.YahooFortuneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YahooFortune.app/YahooFortune";
+			};
+			name = Debug;
+		};
+		4C71C0201DABFCC10026C486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YahooFortuneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yahoo.YahooFortuneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YahooFortune.app/YahooFortune";
+			};
+			name = Release;
+		};
+		4C71C0221DABFCC10026C486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YahooFortuneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yahoo.YahooFortuneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YahooFortune;
+			};
+			name = Debug;
+		};
+		4C71C0231DABFCC10026C486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YahooFortuneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yahoo.YahooFortuneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YahooFortune;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C71BFE61DABFCC10026C486 /* Build configuration list for PBXProject "YahooFortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C71C0191DABFCC10026C486 /* Debug */,
+				4C71C01A1DABFCC10026C486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C71C01B1DABFCC10026C486 /* Build configuration list for PBXNativeTarget "YahooFortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C71C01C1DABFCC10026C486 /* Debug */,
+				4C71C01D1DABFCC10026C486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C71C01E1DABFCC10026C486 /* Build configuration list for PBXNativeTarget "YahooFortuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C71C01F1DABFCC10026C486 /* Debug */,
+				4C71C0201DABFCC10026C486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C71C0211DABFCC10026C486 /* Build configuration list for PBXNativeTarget "YahooFortuneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C71C0221DABFCC10026C486 /* Debug */,
+				4C71C0231DABFCC10026C486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C71BFFA1DABFCC10026C486 /* YahooFortune.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C71BFFB1DABFCC10026C486 /* YahooFortune.xcdatamodel */,
+			);
+			currentVersion = 4C71BFFB1DABFCC10026C486 /* YahooFortune.xcdatamodel */;
+			path = YahooFortune.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C71BFE31DABFCC10026C486 /* Project object */;
+}
